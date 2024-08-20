@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700');
+@import url('https://use.fontawesome.com/releases/v6.1.2/css/all.css');
+
+body {
+  margin: 0;
+  font-family: Open Sans;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.container {
+  text-align: center;
+}
+
+.banner {
+  background-size: cover;
+  background-position: center;
+  padding: 200px 0;
+}
+
+.banner h1 {
+  color: white;
+  font-size: 40px;
+  text-align: center ;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
+}
+
+.banner p {
+  color: white;
+  opacity: .8;
+  font-size: 25px;
+  text-align: center;
+}
+
+.btn-primary {
+
+
+  background-color: rgba(255, 166, 0, 0.717);
+  padding: 9px 27px;
+  border-radius: 50px;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: rgba(255, 166, 0, 0.931);
+}
+
+.card img {
+  width: 150px;
+}
+
+.card p {
+  opacity: .8;
+}
+
+.card {
+  width: 200px;
+  border-radius: 3px;
+  box-shadow: 0 0 5px  rgba(255, 166, 0, 0.717);
+  text-align: center;
+  padding: 20px;
+  border: 1px solid  rgba(255, 166, 0, 0.717);
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+@media(max-width: 900px) {
+  .card {
+    margin-bottom: 15px;
+  }
+}
+
+@media(max-width: 500px) {
+  .cards {
+    justify-content: space-around;
+  }
+}
+
+.container {
+  width: 900px;
+  margin: auto;
+}
+
+@media(max-width: 900px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media(max-width: 500px) {
+  .container {
+    width: 300px;
+  }
+}
+
+.container {
+  width: 900px;
+  margin: auto;
+}
+
+@media(max-width: 900px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media(max-width: 500px) {
+  .container {
+    width: 300px;
+  }
+}
+
+.footer {
+  text-align: center;
+  padding: 60px;
+  background-color: rgba(255, 166, 0, 0.717);
+}
+
+.footer a {
+  font-size: 30px;
+  color:  black;
+}
+
+.footer a:hover {
+  color: antiquewhite;
+}
